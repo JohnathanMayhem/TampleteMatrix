@@ -10,6 +10,8 @@ public:
 
   Matrix(const Matrix& m);
 
+  Matrix(const int& n);
+
   ~Matrix();
 
   Matrix &operator = (const Matrix& m);
